@@ -5,10 +5,10 @@
 The Task Management API is a simple RESTful API for managing tasks. This API allows users to create, retrieve, update, and delete tasks. The following endpoints are implemented:
 
 - **GET /tasks**: Retrieve all tasks.
-- **GET /tasks/****:id**: Retrieve a specific task by its ID.
+- **GET /tasks/:id**: Retrieve a specific task by its ID.
 - **POST /tasks**: Create a new task with the required fields (title, description, completed).
-- **PUT /tasks/****:id**: Update an existing task by its ID.
-- **DELETE /tasks/****:id**: Delete a task by its ID.
+- **PUT /tasks/:id**: Update an existing task by its ID.
+- **DELETE /tasks/:id**: Delete a task by its ID.
 
 ## Setup Instructions
 
